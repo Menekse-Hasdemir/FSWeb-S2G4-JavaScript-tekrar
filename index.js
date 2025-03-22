@@ -53,6 +53,7 @@ function KareninAlani(kenaruzunlugu) {
 function CemberinCevresi(yaricap) {
  return `Çemberin çevresi = 2*pi*yaricap`
 }
+console.log(CemberinCevresi(5))
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
