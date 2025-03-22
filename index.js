@@ -117,8 +117,9 @@ return enkucuk
 // 3b çözümü:
 
 let ucetambolunenler = []
-array.forEach(element => {
-  
+ucetambolunenler.forEach(sayi => sayi % 3===0 {
+ucetambolunenler.push(sayi)
+return ucetambolunenler
 });
 // 3c çözümü:
 
