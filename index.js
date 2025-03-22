@@ -103,12 +103,23 @@ let ucetambolunenler,
 
 // 3a çözümü
 
-/* kodlar buraya */
-
+let enbuyuk =0
+let enkucuk =0
+for(i=0; i<sayilar.length; i++) {
+  if(sayilar[i] > enbuyuk)
+  enbuyuk = sayilar[i]
+  if(sayilar[i] < enkucuk) {
+    enkucukk = sayilar[i]
+return enbuyuk
+return enkucuk
+  }
+}
 // 3b çözümü:
 
-/* kodlar buraya */
-
+let ucetambolunenler = []
+array.forEach(element => {
+  
+});
 // 3c çözümü:
 
 /* kodlar buraya */
