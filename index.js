@@ -131,7 +131,7 @@ const besyuzdenkucuksayilar = sayilar.filter((sayi) => sayi <500)
 
 // 3e çözümü
 
-/* kodlar buraya */
+const  siralisayilar =besyuzdenkucuksayilar.sort((a,b) => a-b)
 
 // 3f çözümü
 
