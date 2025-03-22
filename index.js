@@ -123,7 +123,7 @@ return ucetambolunenler
 });
 // 3c çözümü:
 
-/* kodlar buraya */
+const ucebolunenlerintoplami = ucetambolunenler.reduce((toplam , sayi) => toplam +sayi,0)
 
 // 3d çözümü
 
