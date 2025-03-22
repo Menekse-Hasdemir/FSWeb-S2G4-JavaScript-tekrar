@@ -135,7 +135,28 @@ const  siralisayilar =besyuzdenkucuksayilar.sort((a,b) => a-b)
 
 // 3f çözümü
 
-/* kodlar buraya */
+let tekraredensayilar = [];
+
+
+let tekrarSayilari = {};
+
+sayilar.forEach(sayi => {
+    if (tekrarSayilari[sayi]) {
+        tekrarSayilari[sayi]++;
+    } else {
+        tekrarSayilari[sayi] = 1;
+    }
+});
+
+
+for (let sayi in tekrarSayilari) {
+    if (tekrarSayilari[sayi] > 1) {
+        tekraredensayilar.push(`${sayi} sayısı ${tekrarSayilari[sayi]} kez tekrar ediyor.`);
+    }
+}
+
+console.log(tekraredensayilar);
+
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
