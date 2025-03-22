@@ -127,7 +127,7 @@ const ucebolunenlerintoplami = ucetambolunenler.reduce((toplam , sayi) => toplam
 
 // 3d çözümü
 
-/* kodlar buraya */
+const besyuzdenkucuksayilar = sayilar.filter((sayi) => sayi <500)
 
 // 3e çözümü
 
