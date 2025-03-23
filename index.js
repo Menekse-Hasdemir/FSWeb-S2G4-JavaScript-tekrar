@@ -116,6 +116,7 @@ return enbuyuk
 return enkucuk
   }
 }
+
 // 3b çözümü:
 
 let ucetambolunenler = []
